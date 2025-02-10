@@ -10,7 +10,7 @@ import os
 app = Flask(__name__)
 
 # Set up the GROQ API key
-os.environ["GROQ_API_KEY"] = "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"  # Replace with your actual API key
+os.environ["GROQ_API_KEY"] = ""  # Replace with your actual API key
 client = Groq()
 
 # Load the dataset and embeddings
